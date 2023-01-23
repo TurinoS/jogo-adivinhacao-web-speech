@@ -1,5 +1,5 @@
-const min = 50;
-const max = 100;
+const min = 1;
+const max = 1000;
 
 function sorteiaNumeroSecreto (max) {
     return Math.floor(Math.random() * (min - max - 1) + max + 1);
